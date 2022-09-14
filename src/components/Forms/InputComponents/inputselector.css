@@ -1,0 +1,18 @@
+.input-comp-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.inputo-selector{
+    padding: 5px;
+    outline: none;
+    border-radius:5px;
+}
+.log-pg-empty-msg{
+    color: red;
+    font-size: 13px;
+    display: none;
+}

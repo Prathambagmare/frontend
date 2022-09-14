@@ -1,0 +1,49 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid rgba(177, 177, 177, 0.452);
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .main-table{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .main-table button{
+    background-color: red;
+    color: #ddd;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .c-popup{
+    display: none;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+  }
+  .closeButton{
+    position: absolute;
+    right: 20px;
+   top: 20px;
+    font-weight: 400;
+  
+  }

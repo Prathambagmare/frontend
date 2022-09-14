@@ -1,0 +1,185 @@
+.log-pg-main{
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+    background-clip: content-box;
+    background-repeat: space;
+    background-size: cover;
+    background-position: center;
+    
+    background-image: url("https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"); */
+    
+}
+.containerr{
+    
+   padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+  
+    /* CSS just to show the bounds */
+   
+
+}
+
+.main-logo{
+
+opacity: 0.9;
+
+    width: 32%;
+}
+
+.log-pg-main::before{
+    filter: blur(2px);
+
+}
+
+.log-pg-inr-cnt{
+    background-color:#001e39bb;
+    z-index: 9999;
+    display: flex;
+    flex: 1;
+    height: inherit;
+}
+
+.log-pg-cl1{
+    z-index: 9999;
+    flex: 1;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    border-radius: 4px;
+
+}
+
+@font-face {
+font-family: "GoldmanBold";
+src: local("GoldmanBold"),
+ url("./Perpe.ttf") format("truetype");
+font-weight: bold;
+}
+
+.rtwi{  
+    margin-top: 0%;
+    color: #ffd900c2;
+    font-size: 35px;
+    font-family:"GoldmanBold"
+}
+
+.internet{
+    color: rgb(1, 161, 1);
+    /* color: aliceblue; */
+}
+
+.log-pg-inf{
+    /* color: rgb(51, 51, 51); */
+    color: rgb(235, 235, 235);
+    font-weight:600;
+}
+
+.log-pg-cl2{
+    z-index: 9999;
+    flex: 1;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    height: max-content;
+    padding: 10px;
+    max-width: 340px;
+
+}
+
+.log-pg-cl2-contents h2{
+    color: rgb(119, 119, 119);
+    width: 100%;
+    flex: 1;
+    flex-basis: auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.log-pg-inp{
+    border: rgb(3, 177, 3) 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 5px;
+    outline: none;
+    display: block;
+}
+
+.log-pg-uname{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: grey;
+}
+
+.log-pg-cl2-ops{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+
+    margin-top: 25px;
+
+}
+
+.log-pg-cl2-ops-l{
+    justify-content: space-between;
+    display: flex;
+    font-size: 14px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.log-pg-cl2-ops-r{
+    justify-content: space-between;
+    display: flex;
+    font-size: 14px;
+    margin-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.log-pg-cl2-lgbtn button{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(21, 190, 21);
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    width: 100%;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.log-pg-cl2-contents{
+    margin-top: 20px;
+    flex: 1;
+    flex-basis: auto;
+
+}
+
+.log-pg-empty-msg{
+    color: red;
+    font-size: 13px;
+    display: none;
+}

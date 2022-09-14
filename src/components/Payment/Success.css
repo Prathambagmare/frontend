@@ -1,0 +1,57 @@
+.maindiv{
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center top;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.maindiv h2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.maindiv h4{
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.checked{
+   margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    
+}
+.innerdiv{
+    
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgba(128, 128, 128, 0.103);
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.maindiv button{
+    margin-top: 35px;
+    background-color: #61ca65; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.maindiv button:hover{
+    background-color: #98d39a; /* Green */
+    border: none;
+    color: white;
+}

@@ -1,0 +1,155 @@
+.nb-blue-main-cnt{
+    background-color: #001E39;
+    height: 100%;
+    max-height: 100vh;
+    font-size: 17px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    left: 0;
+    position: absolute;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d4d4d4;
+    filter: opacity(0.3);
+    border-radius: 10px;
+}
+
+/*#001E39 0B2c49 */
+
+.main-icon-gs{
+    margin-right: 8px;
+}
+
+.nb-blue-menu-top-row{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+ 
+    background-color: #001E39;
+}
+
+/* ------------------ Snap Block -------------------- */
+
+.profile-snap-pic{
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+
+}
+
+.profile-snap-block-desn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    filter: opacity(0.7);
+}
+
+.profile-snap-block{
+    background-color: #0B2c49;
+}
+
+.profile-snap-block-cnt{
+    padding: 10px;
+    /* margin: 10px; */
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.profile-snap-block-details{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #f5f5f5;
+    font-size: 14px;
+
+}
+
+.profile-snap-field{
+    margin: 5px;
+    font-size: 14px;
+    filter: opacity(0.7);
+}
+
+/* ------------------ Snap Block End -------------------- */
+.nv-expanding-menu-main-cnt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
+    font-size: 14px;
+    
+}
+.nv-expanding-menu-outer-item{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-bottom: #0B2c49 1px solid;
+    user-select: none;
+    background-color: #001E39;
+    /* border: white 1px solid; */
+}
+
+.nv-expanding-menu-inr-cnt{
+    background-color:#0B2c49;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: height 0.3s;
+    
+}
+
+.nv-expanding-menu-inr-itm{
+    display: flex;
+    margin:16px;
+    padding-left: 5px;
+    align-items: center;
+    filter: opacity(0.6);
+    cursor: pointer;
+}
+
+.nv-expanding-menu-inr-itm::before{
+    content: url();
+}
+
+#fileAdd{
+    margin: 4px;
+    padding-right: 12px;
+}
+
+#manager-icon{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    filter: opacity(0.5);
+}
+
+.manage-rooms{
+    flex: 1;
+    margin-left: 8px;
+    filter: opacity(0.8);
+    font-size: 14px;
+}
+
+.down-ar{
+    margin-right: 5px;
+    transition: 300ms;
+    filter: opacity(0.5);
+}

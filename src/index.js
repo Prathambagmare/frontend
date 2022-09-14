@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import DashBoard from './DashBoard';
+import LoginPage from './Pages/Login';
+import { PrivateRoute } from './components/PrivateRouter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path='/home/*' element={<DashBoard/>}></Route> */}
+        <Route exact path='/*' element={<LoginPage></LoginPage>}></Route>
+        <Route path='/home/*' element={<PrivateRoute><DashBoard/></PrivateRoute>}></Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
